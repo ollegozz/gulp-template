@@ -45,11 +45,15 @@ npm i webpack-stream style-loader css-loader --save-dev
 npm i air-datepicker -S
 
 JS:
+
 import AirDatepicker from 'air-datepicker';
+
 import 'air-datepicker/air-datepicker.css';
 
 document.addEventListener('DOMContentLoaded', () => {
+
 	new AirDatepicker('#my-element');
+ 
 });
 
 HTML:
